@@ -7,7 +7,7 @@ name = "spec-driven-architect-assistant"
 version = "0.1.0"
 description = "Cloud FinOps & Cost Optimization Agent built using Spec-Driven Development"
 readme = "README.md"
-requires-python = ">=3.11"
+requires-python = ">=3.12,<3.14"
 authors = [
     { name = "Sanjay Thakur" }
 ]
