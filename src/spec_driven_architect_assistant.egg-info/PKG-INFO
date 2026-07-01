@@ -1,0 +1,15 @@
+Metadata-Version: 2.4
+Name: spec-driven-architect-assistant
+Version: 0.1.0
+Summary: Cloud FinOps & Cost Optimization Agent built using Spec-Driven Development
+Author: Sanjay Thakur
+License: MIT
+Requires-Python: >=3.11
+Description-Content-Type: text/markdown
+Provides-Extra: dev
+
+﻿# Cloud FinOps & Cost Optimization Agent
+
+Spec-Driven Development project. See specs/ for design artifacts.
+
+**Status:** Week 1 — Specifications phase. No code yet (by design).

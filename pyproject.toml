@@ -1,0 +1,33 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "spec-driven-architect-assistant"
+version = "0.1.0"
+description = "Cloud FinOps & Cost Optimization Agent built using Spec-Driven Development"
+readme = "README.md"
+requires-python = ">=3.11"
+authors = [
+    { name = "Sanjay Thakur" }
+]
+license = { text = "MIT" }
+
+# Runtime dependencies added in T-A-02
+dependencies = []
+
+[project.optional-dependencies]
+dev = [
+    # Dev dependencies added in T-A-02
+]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.ruff]
+line-length = 100
+target-version = "py311"
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+python_files = ["test_*.py"]

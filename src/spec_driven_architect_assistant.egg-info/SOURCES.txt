@@ -1,0 +1,10 @@
+README.md
+pyproject.toml
+src/eval_harness/__init__.py
+src/finops_agent/__init__.py
+src/mcp_server/__init__.py
+src/spec_driven_architect_assistant.egg-info/PKG-INFO
+src/spec_driven_architect_assistant.egg-info/SOURCES.txt
+src/spec_driven_architect_assistant.egg-info/dependency_links.txt
+src/spec_driven_architect_assistant.egg-info/requires.txt
+src/spec_driven_architect_assistant.egg-info/top_level.txt

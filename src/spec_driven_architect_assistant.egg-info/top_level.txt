@@ -1,0 +1,3 @@
+eval_harness
+finops_agent
+mcp_server
