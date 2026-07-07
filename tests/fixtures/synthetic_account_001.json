@@ -1,0 +1,59 @@
+{
+  "account_id": "synthetic-001",
+  "account_name": "Synthetic Test Account 001",
+  "region": "us-east-1",
+  "generated_at": "2026-06-25T00:00:00Z",
+  "resources": [
+    {
+      "resource_id": "i-fake-001",
+      "resource_type": "ec2",
+      "region": "us-east-1",
+      "tags": {
+        "Name": "old-batch-worker-1",
+        "Environment": "dev",
+        "Owner": "team-alpha"
+      },
+      "monthly_cost": 50.00,
+      "utilization_metrics": {
+        "cpu_avg_14d": 2.5,
+        "cpu_max_14d": 8.0,
+        "network_in_avg_14d_mb": 0.5,
+        "days_since_launch": 45
+      }
+    },
+    {
+      "resource_id": "i-fake-002",
+      "resource_type": "ec2",
+      "region": "us-east-1",
+      "tags": {
+        "Name": "unused-jenkins-agent",
+        "Environment": "dev",
+        "Owner": "team-devops"
+      },
+      "monthly_cost": 30.00,
+      "utilization_metrics": {
+        "cpu_avg_14d": 3.1,
+        "cpu_max_14d": 12.0,
+        "network_in_avg_14d_mb": 2.0,
+        "days_since_launch": 90
+      }
+    },
+    {
+      "resource_id": "i-fake-003",
+      "resource_type": "ec2",
+      "region": "us-east-1",
+      "tags": {
+        "Name": "production-web-server",
+        "Environment": "production",
+        "Owner": "team-platform"
+      },
+      "monthly_cost": 80.00,
+      "utilization_metrics": {
+        "cpu_avg_14d": 65.0,
+        "cpu_max_14d": 92.0,
+        "network_in_avg_14d_mb": 450.0,
+        "days_since_launch": 180
+      }
+    }
+  ]
+}
